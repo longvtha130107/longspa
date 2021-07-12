@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style type="text/css">
+  footer{
+    background-color: darkgrey;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+  }
+  .footer .text1,.button,.icons,.link{
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .text1 h1{
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .text1 h2{
+      font-family: 'Anton', sans-serif;
+  }
+  .text1 h3{
+    font-size: 15px;
+  }
+
+  .button input{
+    width: 400px;
+    height: auto;
+  }
+  .button button{
+    width: 100px;
+    height: auto;
+  }
+
+  .icon{
+    width: 30px;
+    height: 30px;
+  }
+  .icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+</style>
+
+  </head>
+
+
+  <body>
+
+     <nav class="navbar navbar-expand-sm bg-dark  navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+  <img src="E:/kỳ 6/coding/my images/logolong2.png" style="width: 30px;">
+  </a>
+  <!-- Links -->
+  <!-- i am giving margin styling for my links -->
+  <!-- i want my link to be on the right side of my navbar -->
+  <ul class="navbar-nav ml-auto" style="padding-right: 50px">                 <!-- ml- auto means - margin left automatic -->
+                                                  <!-- mr- auto means - margin right automatic -->
+    <li class="nav-item">
+      <a class="nav-link" href="E:/kỳ 6/coding/my images/index.html">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="E:/kỳ 6/coding/my images/aboutusspa.html">About us</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="E:/kỳ 6/coding/my images/service.html">Service</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="E:/kỳ 6/coding/my images/contact.html">Contact us</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="header-bg">
+  <div class="video-bg">
+    <video autoplay muted loop id="myimages">
+    <source src="spavideo.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="body-bg">
+    <div class="content-bg">
+      <h1><b>Four Seasons Milan</b></h1>
+      <p class="para">
+      Four Seasons Milan’s Spa offers seven luxurious treatment rooms including a spa suite. Our signature treatments feature active ingredients considered by scientific research as the most powerful antioxidants: organic polyphenols from fermented red grapes, bioflavonoids and anthocyanins from the leaves and sap of the vines, and trace elements of mineral salts from the soil of the Tauleto Vineyard.
+      </p>
+    <div class="gr-btn">
+      <button style="text-align:center" type="button" class="btn btn-outline-light">Consulting support</button>
+      <button style="text-align:center" type="button" class="btn btn-outline-light">Contact us now</button>
+    </div>
+      </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+<style type="text/css">
+.content-bg h1{
+   font-family: 'Anton', sans-serif;
+}
+.gr-btn {
+ /* background-color: white;
+  color: white;*/
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+.para
+{
+  text-align: center;
+}
+.content-bg {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-bg {
+    position: absolute;
+    z-index: 10;
+    left: 25%;
+    bottom: 45%;
+    width: 50%;
+}
+video#myimages {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.header-bg{
+    width: 100%;
+    height: auto;
+    background-color: darkred;
+    margin-top: 50px;
+    position: relative;
+}
+
+
+#myVideo {
+  width: 100%;
+  height: 100%;
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+}
+
+/*.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}*/
+
+/*.readmorebutton{
+  background-color: darkgrey; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 600px;
+}*/
+
+</style>
+
+
+<section>
+  <br> <br>
+<div class="container"> 
+ <div class="row" style="padding-bottom: 100px">
+  <div class="column">
+    <div class="card">
+      <img src="spa1.jpg" alt="Jane" style="width:100%; padding-bottom: 30px;" >
+      <div class="container" style="text-align: center;">
+        <h2 style="color: #000000">SAFARI AND ISLANDS COLLECTION</h2>
+        <p style="color: #000000">Whether immersing yourself in dynamic urban centres, exploring pristine white-sand beaches and turquoise lagoons.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="spa2.jpg" alt="Mike" style="width:100%; padding-bottom: 30px" >
+      <div class="container" style="text-align: center">
+        <h2 style="color: #000000">SEYCHELLES</h2>
+        <p style="color: #000000">Coated in lush tropical greenery and edged by picturesque white-sand beaches, it’s easy to see why this enchanting Indian Ocean archipelago captures the hearts and minds of all who visit.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="spa3.jpg" alt="John" style="width:100%; padding-bottom: 30px">
+      <div class="container" style="text-align: center">
+        <h2 style="color: #000000">FALL IN LOVE WITH HAWAII</h2>
+        <p style="color: #000000">Hawaii has many faces, all of them teeming with beauty and life. Our collection of Hawaii resorts makes it easy to find a setting that feels as though it was plucked from your daydreams.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="spa4.jpg" alt="John" style="width:100%; padding-bottom: 30px">
+      <div class="container" style="text-align: center">
+        <h2 style="color: #000000">EXHILARATION REACHES NEW HEIGHTS</h2>
+        <p style="color: #000000">The natural beauty of Jackson Hole, the rejuvenating spirit of Santa Fe, the adrenaline-filled excursions of Vail and Whistler.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<style type="text/css">/* Three columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+</style>
+</section>
+
+
+
+<div class="container">    <!--my container tag -->
+
+   <div class="row" style="padding-bottom: 100px">   <!-- my fist row -->  
+   
+     <div class="col">  <!-- my fist column -->
+      <h1 style="color:#000000"><b> There was no vision, there was no grand dream – but there has always been a consistent thread and it propels us forward today, as we continue to grow globally, and that’s service. </b></h1>
+     </div>
+
+    <div class="col">  <!-- my sec column -->       
+       <h2 style="color:#000000; padding-bottom: 30px" ><b> We have chosen to specialize within the hospitality industry by offering only experiences of exceptional quality. </b></h2>
+     <p style="color: #000000"> At Four Seasons, we believe in recognizing a familiar face, welcoming a new one and treating everyone we meet the way we would want to be treated ourselves. Whether you work with us, stay with us, live with us or discover with us, we believe our purpose is to create impressions that will stay with you for a lifetime. It comes from our belief that life is richer when we truly connect to the people and the world around us.</p>
+     <p>We succeed when every decision is based on a clear understanding of and belief in what we do, and when we couple this conviction with sound financial planning. We expect to achieve a fair and reasonable profit to ensure the prosperity of the company and to offer long-term benefits to our hotel owners, our customers and our employees.</p>
+     
+    <a style="text-align:center; width: 600px" type="button" class="btn btn-outline-dark" href="E:/kỳ 6/coding/my images/aboutusspa.html">READ MORE</a>
+     
+    </div>
+  </div>  
+</div>
+</div> 
+
+<style type="text/css">
+  .col h1{
+    font-family: 'Anton', sans-serif;
+  }
+
+
+</style>
+
+<footer>
+  <div class="footer">
+    <div class="text1">
+     <h1>038-694-758</h1>
+     <h2> JOIN OUR LIST</h2>
+     <h3> subcrise to our mailing list to receive update and promotional offers</h3>
+    </div>
+    <div class="button">
+      <input type="text">
+      <button type="submit">Submit</button>
+    </div>
+    <div class="icons">
+      <div class="icon">
+        <a href="#">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </div>
+      <div class="icon">
+       <a href="#">
+          <i class="fa fa-twitter"></i>
+       </a>
+      </div>
+      <div class="icon">
+       <a href="#">
+        <i class="fa fa-google-plus"></i>
+       </a>
+      </div>
+      <div class="icon">
+       <a href="#">
+        <i class="fa fa-instagram"></i>
+       </a>
+      </div>
+    </div>
+    <div class="link">
+     <a href="https://www.fourseasons.com/?ef_id=Cj0KCQjw24qHBhCnARIsAPbdtlLwER6s0yimxWkcxbqLEdbkGmMr2oBxHNV57X3xwz74uzbb4DCgBMoaAlzWEALw_wcB:G:s&s_kwcid=AL!4732!3!438414337849!e!!g!!four%20seasons&source=ppc%7CCX%7Cgaw%7Cacr%7CRG%7CBrand-FSHR&kpid=go_cmp-10170009342_adg-110302560628_ad-438414337849_kwd-11636091_dev-c_ext-_prd-_sig-Cj0KCQjw24qHBhCnARIsAPbdtlLwER6s0yimxWkcxbqLEdbkGmMr2oBxHNV57X3xwz74uzbb4DCgBMoaAlzWEALw_wcB&ppc=true&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlLwER6s0yimxWkcxbqLEdbkGmMr2oBxHNV57X3xwz74uzbb4DCgBMoaAlzWEALw_wcB">copyright by 2019</a>
+    </div>
+  </div>
+</footer>
